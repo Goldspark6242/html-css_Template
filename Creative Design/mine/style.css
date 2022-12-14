@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/header.jpg);
+    background-position: bottom;
+    background-size: cover;
+    align-items: center;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+nav {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: rgba(68, 65, 65, 0.3);
+    padding: 0 20px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin: auto 20px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.comp {
+    background-color: #fad02c;
+    padding: 10px 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #fad02c;
+}
+
+.nav-links {
+    display: flex;
+}
+
+/* ...................Nav-links END....................  */
+
+.banner {
+    margin-top: 200px;
+    padding-bottom: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.banner button {
+    padding: 10px 15px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+.banner button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* ..................... End of Banner..............................  */
+.wrapper1 {
+    width: 100%;
+    background-color: #EAF0FC;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.container1 {
+    width: 1100px;
+    margin: auto;
+}
+
+.about-us {
+    display: flex;
+    position: relative;
+}
+
+.about {
+    width: 150px;
+    height: 320px;
+    background-color: #fad02c;
+    position: relative;
+    margin-top: 40px;
+    color: white;
+    box-shadow: rgba(76, 77, 57, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.about h2 {
+    transform: rotate(-90deg);
+    font-size: 35px;
+    position: absolute;
+    top: 40%;
+    left: -45px;
+}
+
+.content {
+    font-family: sans-serif;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    left: 50px;
+    border-radius: 8px;
+}
+
+.content1 {
+    margin: 10px;
+    padding: 8px;
+    color: #495050;
+    line-height: 20px;
+}
+
+.content1 h5 {
+    font-size: 20px;
+}
+
+.content1 p {
+    font-size: 14px;
+    color: #495050;
+    opacity: .8;
+}
+
+.content1 a {
+    color: #fad02c;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* .......................... End of About Us.......................  */
+
+.wrapper2 {
+    width: 100%;
+}
+
+.card-yellow {
+    width: 100px;
+    height: 250px;
+    background-color: #fad02c;
+    position: absolute;
+    z-index: -1;
+    bottom: 160px;
+    box-shadow: rgba(76, 77, 57, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.card {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.col {
+
+    height: 350px;
+    width: 540px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.col1 {
+    height: 350px;
+    width: 540px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding: 30px;
+    line-height: 25px;
+    padding-left: 50px;
+}
+
+.image {
+    display: flex;
+    margin-left: 30px;
+}
+
+.col1 p {
+    font-size: 15px;
+}
+
+#light {
+    font-size: 15px;
+    opacity: 0.4;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #fad02c;
+    border: 1px solid #fad02c;
+}
+
+.btn:hover {
+    background-color: #fad02c;
+    color: black;
+}
+
+/* ........................End of caRD .......................  */
+.wrapper3 {
+    background-color: #EAF0FC;
+}
+
+.card2 {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.card-yellow2 {
+    width: 100px;
+    height: 250px;
+    background-color: #fad02c;
+    position: absolute;
+    bottom: 150px;
+    right: 30px;
+    box-shadow: rgba(76, 77, 57, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.image1 {
+    display: flex;
+    z-index: 1;
+}
+
+.col2 {
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding-right: 60px;
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+.col2 p {
+    font-size: 15px;
+}
+
+/* ........................End of caRD .......................  */
+.client-says {
+    padding: 150px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.client-says h2 {
+    font-size: 35px;
+}
+
+.clients {
+    display: flex;
+    padding-top: 100px;
+    position: relative;
+}
+
+.client {
+    background-color: #EAF0FC;
+    margin: 10px;
+    height: 300px;
+    padding: 80px 10px 20px 10px;
+    line-height: 25px;
+    border-radius: 8px;
+}
+
+.client p {
+    opacity: 0.6;
+}
+
+.client img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.one img {
+    position: absolute;
+    top: 75px;
+    left: 140px;
+}
+
+.two img {
+    position: absolute;
+    top: 75px;
+    left: 500px;
+}
+
+.three img {
+    position: absolute;
+    top: 75px;
+    left: 864px;
+}
+
+/* ........................... End of client says ........................ 
+ */
+.wrapper4 {
+    width: 100%;
+    height: 250px;
+    background: url(./images/bg-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#talk {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 280px;
+}
+
+/* .........................................................  */
+.contact-us {
+    height: 600px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+
+.contact-us h1 {
+    font-size: 50px;
+    color: #495057;
+    padding-bottom: 20px;
+}
+
+.contact-us p {
+    color: #696969;
+    font-size: 13px;
+    padding-bottom: 25px;
+    letter-spacing: .8px;
+}
+
+.contact-us input {
+    border: 0.8px solid #6C757D;
+    padding: 8px 65px;
+    outline: #696969;
+}
+
+#btn1 {
+    padding: 8px 260px;
+    background-color: #fad02c;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    padding: 10px;
+    border: 0.8px solid #6C757D;
+    outline: #696969;
+
+}
+
+/* .....................................................  */
+.footer {
+    display: flex;
+    padding: 80px 10px 80px 10px;
+}
+
+.foot {
+    width: 380px;
+    padding: 20px;
+}
+
+.foot li {
+    color: #fad02c;
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot hr,
+p,
+hr {
+    opacity: 0.6;
+}
+
+.copy {
+    padding: 30px 10px;
+}
+
+#f-icon i {
+    color: #fad02c;
+    padding: 8px;
+}
+
+#f-icon i:hover {
+    color: darkgoldenrod;
+}
+
+/* ........................The END ...........................  */
+@media screen and (max-width:450px) 
+ {
+    .container , .container1{
+        width: 100%;
+    }
+    
+}

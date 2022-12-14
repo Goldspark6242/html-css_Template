@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Special+Elite&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.507)), url(./images/arch.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.header nav{
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav .btn-hide{
+    display: none;
+}
+:root{
+    --theme:#c74c3c;
+}
+nav h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+
+    letter-spacing: 1px;
+}
+nav h1 span{
+    font-weight: 700;
+    color: var(--theme);
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    padding: 15px 30px;
+    list-style: none;
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+
+   
+}
+.nav-bar ul li:hover a{
+    color: var(--theme);
+}
+.btn-link{
+    padding: 5px 25px;
+    background-color: var(--theme);
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+ul .btn-link:hover{
+background-color: white;
+color: var(--theme);
+}
+
+/* ..............................End of Nav...........................  */
+.banner{
+    color: white;
+    position: absolute;
+
+    top: 120px;
+    left: 50px;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.banner h1 span{
+    color: var(--theme);
+    font-weight: 700;
+}
+.banner p{
+    margin: 30px 0;
+}
+.services{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.services .service{
+    padding: 20px;
+}
+.service h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.service p{
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 14px;
+    margin: 14px 0;
+}
+.service a{
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+.services .service:nth-child(1){
+    background-color: #26282c;
+}
+.services .service:nth-child(1) h3,
+.services .service:nth-child(1) a{
+    color: white;
+}
+.services .service:nth-child(1) p{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.services .service:nth-child(2){
+    background-color: #e4e4e4;
+}
+.services .service:nth-child(3){
+    background-color: #f1f1f1;
+}
+/* ......................End of services........................  */
+.project{
+    background: #f1f1f1;
+}
+.project .row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.project .col{
+    width: 50vw;
+    height: 100vh;
+    padding: 80px;
+
+}
+.project .col h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.project .col p{
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.493);
+    line-height: 30px;
+}
+.col-2{
+    position: relative;
+}
+.box-1{
+position: absolute;
+background-color: var(--theme);
+width: 350px;
+height: 250px;
+top: 50px;
+right: 70px;
+box-shadow: rgba(0, 0, 0, 0.212) 2px 2px 2px;
+}
+.box-2{
+position: absolute;
+background-color: #f2dada;
+width: 100%;
+height: 400px;
+bottom: 0;
+left:0;                                      
+}
+.img-box{
+position: absolute;
+background: url(./images/building.jpg);
+width: 400px;
+/* z-index: 6; */
+height: 450px;
+background-size: cover;
+left: 100px;
+top: 100px;
+box-shadow: rgba(0, 0, 0, 0.144) 1.5px 1.8px 1.5px,rgba(0, 0, 0, 0.158)1.5px 1.8px 1.5px ;
+}
+.top{
+    position: fixed;
+    padding: 15px;
+    background-color: var(--theme);
+    bottom: 0;
+    right: 20px;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ;
+  display: none;
+}
+.top .active{
+    display: block;
+}
+.top a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+
+    font-family: sans-serif;
+}
+
+.wrapper4 {
+    width: 100%;
+    height: 660px;
+    background-image: linear-gradient(to right, rgba(253, 249, 249, 0.2)50%, rgba(253, 249, 249, 0.2)50%), url(./slide/microsoft-edge-FAaz8lkinzs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 100%;
+
+
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+nav {}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    color: whitesmoke;
+    position: sticky;
+    margin-top: 5px;
+
+}
+
+.logo {
+    margin: auto;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: #38b083;
+}
+
+ul {
+    display: inline-block;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    margin: auto 30px;
+
+}
+
+#home {
+    color: #38b083;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: #38b083;
+}
+
+.nav-links button {
+    margin: auto;
+    padding: 10px 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #38b083;
+    color: whitesmoke;
+}
+
+.nav-links button:hover {
+    background-color: black;
+
+}
+
+.banner {
+    margin-left: 30px;
+    font-size: 38px;
+    margin-top: 50px;
+    line-height: 100px;
+    color: rgba(250, 248, 248, 0.8)
+}
+
+.banner a {
+    /* margin: 5px 25px; */
+    background-color: whitesmoke;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: black;
+    font-size: 15px;
+}
+
+.banner a:hover {
+    color: #38b083;
+}
+
+.happiness {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 80PX;
+}
+
+.happiness h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.col1 {
+    width: 50%;
+}
+
+.col1 img {
+    width: 500px;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.col2 ul {
+    float: right;
+
+
+}
+
+.col2 a {
+    color: black;
+    opacity: 0.5;
+
+}
+
+.col2 a:hover {
+    color: #38b083;
+}
+
+.col2 p {
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 27px;
+}
+
+.col2 h2 {
+    margin-top: 20px;
+}
+
+/* End of Digital Happiness  */
+
+/* Digital Services   */
+.digital {
+    margin-bottom: 80px;
+    margin-top: 100PX;
+  padding-bottom: 50px;
+}
+
+.box1 img {
+    width: 400px;
+    height: 240px;
+    background-color: #0D6EFD;
+    padding: 25px;
+}
+
+.box2 {
+    width: 400px;
+    height: 240px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.box2 h2 {
+    font-size: 30px;
+}
+
+.box2 p {
+    font-size: 20px;
+}
+
+.box2 button {
+    padding: 13px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #38b083;
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.box2 button:hover {
+    background-color: black;
+    transition: 2s;
+}
+
+.wrapper1 {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.box3 img {
+    background-color: #FFC107;
+    width: 400px;
+    height: 240px;
+    padding: 25px;
+}
+
+.box5 img {
+    background-color: #38b083;
+    width: 400px;
+    height: 240px;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.digital h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+
+
+}
+
+/* -End of Digital Services   */
+
+/* Select Project */
+.project {
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.project-img {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 80PX;
+
+}
+
+.project-img img {
+    margin: 10px;
+    border-radius: 8px;
+    transition: ease-in-out 0.8s;
+}
+.project-img:hover{
+    transform: scale(1);
+   
+}
+
+.project-img .img5 {
+    position: absolute;
+    right: 397px;
+    bottom: 0px;
+}
+.img1{
+    position: relative;
+    
+    
+}
+.img2{
+    position: relative
+}
+.img3{
+    position: relative
+}
+.img4{
+    position: relative;
+}
+.img6{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    width: 350px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: gray;
+    letter-spacing: 2px;
+}
+.img-text{
+    width: 340px;
+    height: 120px;
+    background-color:#F5F5F5;
+    position: absolute;
+    bottom: 60px;
+    left: 28px;
+    padding: 25px;
+    border-radius: 8px;
+    transition: filter 0.5s;
+}
+.img-text:hover{
+    filter: blur(2px);
+}
+.img-text span{
+    background-color: #fff;
+    padding: 5px 15px;
+    margin-top: 80px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px  black;
+}
+.img-text h1{
+    margin-top: 20px
+}
+.img2 .img-text{
+        top:90px;
+}
+
+/* Start of Marketing   */
+.wrapper3 {
+    width: 100%;
+    height: 950px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/maria-stewart-p4tj0g-_aMM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.marketing {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+}
+
+.plan1 {
+    margin-top: 200px;
+    height: 650px;
+    width: 575px;
+    background-color: #fff;
+    position: relative;
+}
+
+.plan2 {
+    margin-top: 200px;
+    height: 650px;
+    width: 575px;
+    background-color: #fff;
+    position: relative;
+}
+
+.head {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+#dol {
+    margin-left: 100px;
+}
+
+.plan1 .para {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.para {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.para ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.rec {
+    background-color: #38b083;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+
+}
+
+.chat {
+    /* height: 100vh; */
+    font-family: sans-serif;
+
+
+}
+
+.chat h1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form input {
+    padding: 15px 30px;
+}
+
+.area {
+    width: 800px;
+    margin: auto;
+}
+
+.area textarea {
+    width: 800px;
+}
+
+.area button {
+    width: 800px;
+    padding: 10px 0;
+    background-color: #38b083;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.chat label {
+    font-size: 20px;
+    color: grey;
+}
+
+
+
+
+#img4{
+    height:220px;
+    width:380px;
+
+}
+
+.imghover:hover{
+    transform: scale(1.05);
+}
+#img1{
+    height: 380px;
+    width: 380px;
+}
+#img2{
+    height:220px;
+     width:380px;
+}
+#img3{
+    height:400px; 
+    width:380px;
+}
+#img5{
+    height: 380px;
+    width: 380px;
+}
+/* Footer Section   */
+.wrapper5{
+    background-color:#07262E;
+   width: 100%;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    line-height: 35px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.footer h3{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.letter input{
+    padding: 8px 20px;
+    background: transparent;
+   border: none;
+   border-bottom:1px solid white;
+   outline: none;
+   font-size: 17px;
+   color:rgba(250, 248, 248, 0.5);
+}
+.letter button{
+    padding:8px 10px ;
+    font-size: 17px;
+    
+}
+.services li{
+    font-size: 14px;
+    color: white;
+}
+.address{
+    color: white;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 50px;
+}
+
